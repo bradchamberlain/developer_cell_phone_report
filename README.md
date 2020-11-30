@@ -78,4 +78,4 @@ Nice to do, but I don't know if I will
 
 ---
 
-I was thinking I could load the data into a sql lite database and do all the work there.  That feels like overkill.  I'm going to keep it simple and model the report output and build collections that are keyed off the reports.  Hopefully the java collections interface can do most of this.  I'm probably not going to test too much the data load and printer functions, but I should be able to tdd the report builders.
+I was thinking I could load the data into an H2 database and do all the work there.  That feels like overkill.  I'm going to keep it simple and model the report output and build collections that are keyed off the reports.  Hopefully the java collections interface can do most of this.  I'm probably not going to test too much the data load and printer functions, but I should be able to tdd the report builders.
